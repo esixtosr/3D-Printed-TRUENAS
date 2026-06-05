@@ -79,5 +79,15 @@ As outlined in the Modcase manual, the physical build is divided into three dist
 *Rear view showcasing the exposed drive bays, I/O shield, and power supply mount.*
 
 ## 5. Final Thoughts & Lessons Learned
-*   What was the hardest part of the physical build? 
-*   Did you run into any heat or clearance issues once TrueNAS was booted up and the drives were spinning?
+This 3D-printed NAS was a massive milestone for my homelab setup. My comfort zone is usually on the software and configuration side of things—setting up network segmentation, managing Active Directory domains, or spinning up VMs. Forcing myself to physically engineer and troubleshoot the hardware enclosure from scratch was an incredible learning curve. 
+
+**Key Takeaways:**
+*   **Hardware Tolerances are Unforgiving:** A software bug can usually be patched in seconds. If a PETG panel warps by two millimeters after a 14-hour print, you are starting over from scratch. I gained a huge appreciation for physical hardware limitations and thermal management.
+*   **The Bare-Metal Foundation:** You cannot fully secure or effectively virtualize an environment without understanding the physical layer first. Working around motherboard limitations by adding the QNAP expansion card and M.2 adapters reinforced how underlying hardware bottlenecks directly dictate your software and network capabilities.
+*   **SFF is Shockingly Capable:** The Minisforum board combined with the right expansion components proved that you do not need a massive, power-hungry desktop tower to run a highly capable virtualized environment.
+*   **True Modularity and Ownership:** Off-the-shelf NAS appliances are easy, but they lock you into their proprietary hardware and ecosystems. By fabricating the enclosure myself and cherry-picking every component, I have 100% control over the system's lifecycle. If a drive bay cracks or I want to adapt it for more drives, I don't have to buy a whole new appliance—I just boot up the 3D printer.
+
+**What is Next? (Infrastructure Scaling)**
+While this custom NAS has been an absolute beast for handling my Jellyfin media library and hosting my initial sandbox VMs, my infrastructure needs have officially outgrown it. The next step is scaling up and bringing everything I have learned over the last four years together into one unified, secure environment. 
+
+Moving forward, the focus shifts from basic storage to tackling more complex topics like advanced security implementations, intricate network topologies, and managing heavier virtualization loads. This project proved I could bootstrap a stable environment from the ground up; the next evolution is taking all those concepts and migrating them into a dedicated, on-premise server rack. You can check out that migration in my main portfolio timeline!
