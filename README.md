@@ -15,7 +15,7 @@ This repository documents how I put together a custom 3D-printed Small Form Fact
 ---
 
 ## 2. Bill of Materials (Hardware & Purchases)
-Below is the complete breakdown of all parts utilized for the enclosure fabrication, cooling, and the internal PC build.
+Below is the complete breakdown of all parts utilized for the enclosure fabrication, cooling, internal PC build, and storage array.
 
 | Category | Item | Purpose / Notes |
 | :--- | :--- | :--- |
@@ -31,10 +31,11 @@ Below is the complete breakdown of all parts utilized for the enclosure fabricat
 | **PSU** | [SFX Modular Power Supply](https://a.co/d/07sb6UsP) | Compact form factor PSU to clean up cable management inside the tiny case footprint. |
 | **Accessories** | [16mm Metal Power Button](https://a.co/d/0fBQRLgI) | Plugs into the front panel for a clean, premium power switch. |
 | **Cooling** | [Noctua 140mm Premium Fans (x3)](https://a.co/d/0aFWpLIR) | Industrial-grade cooling split up into 3 zones: 1 for the main PC components, 1 at the top to pull out hot exhaust, and 1 dedicated to keeping the HDD storage array chilled. |
-| **Storage** | [Insert e.g., 4x WD Blue 4TB HDDs] | Primary storage drives configured in a TrueNAS pool. |
-| **Storage** | [Insert Boot Drive / NVMe] | Dedicated OS drive for TrueNAS. |
-| **Cooling** | Noctua Low-Profile CPU Cooler | Provided adequate CPU cooling within the tight clearance of the ITX chassis. |
-| **Cooling** | [Insert Case Fans, e.g., 140mm] | Primary intake/exhaust to ensure ambient airflow over the storage arrays. |
+| **Storage Controller** | [M.2 NVMe to SATA Adapter](https://a.co/d/0b52Osdg) | Crucial addition to add SATA connections for the hard drives, since the Minisforum motherboard only has NVMe slots. |
+| **Storage (Boot)** | [256GB NVMe SSD](https://a.co/d/0hwbGVMs) | Dedicated boot drive for the host OS (Proxmox/TrueNAS). |
+| **Storage (Fast)** | [Samsung EVO 1TB NVMe SSD (x2)](https://a.co/d/05a3ng1z) | Fast NVMe storage pool dedicated to running VMs and handling high-speed processing tasks. |
+| **Storage (Bulk)** | [1TB 3.5" HDD (x2)](https://a.co/d/09LaWEtu) | Drives I had laying around, primarily used for my Jellyfin media library (movies/shows) and bulk project storage. |
+| **Storage (Misc)** | [1TB 2.5" HDD (x3)](https://a.co/d/05E49N7L) | Extra drives I had laying around, slotted in for general storage pools or whatever random side projects pop up. |
 
 ---
 
