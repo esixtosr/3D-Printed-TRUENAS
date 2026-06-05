@@ -60,7 +60,7 @@ Take your time with this phase. Printing the chassis is by far the most time-con
 ## 4. PC Assembly & Configuration
 As outlined in the Modcase manual, the physical build is divided into three distinct sections: the **Top Cover**, the **Main Body** (where the PC components live), and the **Base** (the HDD storage array). Overall, everything fits together perfectly like a puzzle piece, and it is a genuinely fun project to build. Just don't rush it.
 
-![Internal Layout](images/Overview3dnas.png)
+![Internal Layout](images/IMG_2939.png)
 *Motherboard mounting and internal cable management.*
 
 *   **The Top Cover & The "Fan Mistake":** Let's get this out of the way first. You **MUST** install the exhaust fan into the top module *before* screwing the top cover onto the case. The guy in the Hardware Haven video made this mistake, and so did I. If you forget, you have to completely disassemble the top half of the case to get the fan in. Also, the top cover attaches using the self-tapping M3 screws, not the M5 nuts/bolts kit. An extended screwdriver bit helps here, but I managed fine without one.
