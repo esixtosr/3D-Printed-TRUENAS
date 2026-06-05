@@ -37,7 +37,7 @@ Below is the complete breakdown of all parts utilized for the enclosure fabricat
 *Insert any notes here about how long the print took, what slicer settings you used, or any warping issues you had to overcome.*
 
 ## 4. PC Assembly & Configuration
-![Internal Layout](images/Overview3dnas.png)
+![Internal Layout](images/IMG_2939.png)
 *Motherboard mounting and Noctua cooler clearance.*
 
 *   **Internal Assembly:** *Talk about fitting the motherboard, routing the power cables, and any tight clearances.*
