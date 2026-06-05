@@ -4,11 +4,11 @@
 *Final assembled NAS enclosure (Corgi for scale).*
 
 ## 1. Overview & Inspiration
-I needed a reliable, budget-conscious storage solution for homelab backups and media, but I wanted something more customizable than an off-the-shelf appliance. This project documents the design, assembly, and configuration of a custom 3D-printed Network Attached Storage (NAS) unit powered by a Small Form Factor (SFF) PC running TrueNAS.
+While off-the-shelf NAS appliances are adequate for basic file hoarding, I required a more versatile and customizable infrastructure solution. I needed a system capable of handling general network storage, hosting a Jellyfin media server, spinning up Virtual Machines (VMs), and providing a reliable environment for sandboxing various side projects. This repository documents the design, assembly, and configuration of a custom 3D-printed Small Form Factor (SFF) PC running TrueNAS to meet those exact operational needs.
 
 **Project Inspiration & Credits:** 
-*   **Hardware Haven:** A massive shout-out to the YouTube channel Hardware Haven. Their video, *"This 3D-Printed Home Server Is INCREDIBLE,"* served as the primary blueprint and inspiration for this build. 
-*   **Enclosure Design:** The 3D models and plans used for this build were purchased from [Insert ModCase or Creator Link Here]. 
+*   **Hardware Haven:** Credit to the YouTube channel Hardware Haven. Their video, *"This 3D-Printed Home Server Is INCREDIBLE,"* served as the primary blueprint and inspiration for this build. 
+*   **Enclosure Design:** The 3D models and plans used for this build are the [MASS - Stackable NAS ITX Enclosure](https://modcase.com.au/products/nas?srsltid=AfmBOoqVngkywpRymVcZIYHDWfh9uJF7jblUkSVucGPfCA4IZMH79yzK), purchased from Modcase for $30.00 USD.
 
 ---
 
