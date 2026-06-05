@@ -4,11 +4,11 @@
 *Final assembled NAS enclosure (Corgi for scale).*
 
 ## 1. Overview & Inspiration
-While off-the-shelf NAS appliances are adequate for basic file hoarding, I required a more versatile and customizable infrastructure solution. I needed a system capable of handling general network storage, hosting a Jellyfin media server, spinning up Virtual Machines (VMs), and providing a reliable environment for sandboxing various side projects. This repository documents the design, assembly, and configuration of a custom 3D-printed Small Form Factor (SFF) PC running TrueNAS to meet those exact operational needs.
+Off-the-shelf NAS boxes are fine if you just want a place to drop files, but I needed something that could actually pull its weight in my homelab. I was looking for a setup capable of handling my general network storage, streaming media through a Jellyfin server, spinning up a few VMs, and acting as a reliable sandbox for my cyber and networking side projects. This repository documents how I put together a custom 3D-printed Small Form Factor (SFF) PC running TrueNAS to hit all those marks without blowing my budget.
 
 **Project Inspiration & Credits:** 
-*   **Hardware Haven:** Credit to the YouTube channel Hardware Haven. Their video, *"This 3D-Printed Home Server Is INCREDIBLE,"* served as the primary blueprint and inspiration for this build. 
-*   **Enclosure Design:** The 3D models and plans used for this build are the [MASS - Stackable NAS ITX Enclosure](https://modcase.com.au/products/nas?srsltid=AfmBOoqVngkywpRymVcZIYHDWfh9uJF7jblUkSVucGPfCA4IZMH79yzK), purchased from Modcase for $30.00 USD.
+*   **Hardware Haven:** Credit to the YouTube channel Hardware Haven. Their video, *"This 3D-Printed Home Server Is INCREDIBLE,"* was the main blueprint and motivation to actually pull the trigger on this build. 
+*   **Enclosure Design:** The 3D files for the case are the [MASS - Stackable NAS ITX Enclosure](https://modcase.com.au/products/nas?srsltid=AfmBOoqVngkywpRymVcZIYHDWfh9uJF7jblUkSVucGPfCA4IZMH79yzK), which I grabbed from Modcase for $30.00 USD.
 
 ---
 
