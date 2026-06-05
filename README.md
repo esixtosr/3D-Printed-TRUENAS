@@ -43,7 +43,7 @@ Below is the complete breakdown of all parts utilized for the enclosure fabricat
 *   **Internal Assembly:** *Talk about fitting the motherboard, routing the power cables, and any tight clearances.*
 *   **Drive Installation:** *Explain how the drives slide into the rear of the enclosure.*
 
-![Rear I/O and Drive Bays](images/back3dnas.png)
+![Rear I/O and Drive Bays](images/IMG_2923.png)
 *Rear view showcasing the exposed drive bays, I/O shield, and power supply mount.*
 
 ## 5. Final Thoughts & Lessons Learned
