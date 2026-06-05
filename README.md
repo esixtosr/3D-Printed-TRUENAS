@@ -15,7 +15,7 @@ This repository documents how I put together a custom 3D-printed Small Form Fact
 ---
 
 ## 2. Bill of Materials (Hardware & Purchases)
-Below is the complete breakdown of all parts utilized for the enclosure fabrication and the internal PC build. 
+Below is the complete breakdown of all parts utilized for the enclosure fabrication, cooling, and the internal PC build.
 
 | Category | Item | Purpose / Notes |
 | :--- | :--- | :--- |
@@ -25,9 +25,12 @@ Below is the complete breakdown of all parts utilized for the enclosure fabricat
 | **Case Hardware** | [M5 Screws & Bolts Assortment](https://a.co/d/0ja87DbK) | Used for mounting the motherboard securely to the 3D-printed standoffs. |
 | **Case Hardware** | [Self-Tapping Case Screws](https://a.co/d/06ilbYNv) | Used to assemble and secure the various 3D-printed case panels together. |
 | **Case Hardware** | [Zip Ties](https://a.co/d/00csjYNW) | Absolutely essential for cable management in such a tight ITX enclosure. |
-| **PC Components** | [Insert Motherboard/CPU] | The core compute unit for running TrueNAS and managing storage arrays. |
-| **PC Components** | [Insert RAM] | Memory required for ZFS caching. |
-| **PC Components** | [Insert Power Supply] | [Insert SFX/Flex ATX] form factor to fit the custom chassis footprint. |
+| **PC Components** | [Minisforum Mini-ITX Motherboard/CPU Combo](https://a.co/d/0ctXo52u) | An insane all-in-one embedded board acting as the core compute unit for the server. |
+| **PC Components** | [64GB DDR5 SODIMM RAM](https://a.co/d/0aUtl9Gl) | High-capacity memory required to handle ZFS caching, virtualization, and side projects. |
+| **PC Components** | [QNAP QM2-2P2G2T Expansion Card](https://www.qnap.com/en/product/qm2-2p2g2t) | A badass find—adds 2x PCIe Gen3 M.2 NVMe SSD slots and 2x 2.5GbE ports to massively upgrade performance and networking. |
+| **PSU** | [SFX Modular Power Supply](https://a.co/d/07sb6UsP) | Compact form factor PSU to clean up cable management inside the tiny case footprint. |
+| **Accessories** | [16mm Metal Power Button](https://a.co/d/0fBQRLgI) | Plugs into the front panel for a clean, premium power switch. |
+| **Cooling** | [Noctua 140mm Premium Fans (x3)](https://a.co/d/0aFWpLIR) | Industrial-grade cooling split up into 3 zones: 1 for the main PC components, 1 at the top to pull out hot exhaust, and 1 dedicated to keeping the HDD storage array chilled. |
 | **Storage** | [Insert e.g., 4x WD Blue 4TB HDDs] | Primary storage drives configured in a TrueNAS pool. |
 | **Storage** | [Insert Boot Drive / NVMe] | Dedicated OS drive for TrueNAS. |
 | **Cooling** | Noctua Low-Profile CPU Cooler | Provided adequate CPU cooling within the tight clearance of the ITX chassis. |
