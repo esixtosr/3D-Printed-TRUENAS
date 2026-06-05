@@ -51,12 +51,26 @@ Here are my specific notes and slicer settings using **Orca Slicer**:
 * **Structural Integrity:** Spinning hard drives create vibration, and power supplies are heavy. As noted in the included Modcase manual, make sure you use at least 4 wall loops for strength. Also, **print the rear panel at 100% infill**—it bears the weight of the PSU and needs to be rock solid.
 * **Bed Adhesion:** PETG sticks *really* well. Sometimes too well. If you are using a smooth PEI or glass bed, use a dedicated 3D print glue (not just any standard craft glue stick). It acts as a release agent so the PETG doesn't rip chunks out of your build plate. 
 * **Let It Cool!** I learned this one the hard way. Once a print finishes, leave it on the plate for at least **30 minutes** to cool down. If you try to pull it off while it is still warm, the parts will warp and bend, and you will be stuck reprinting them. 
+* **TPU Feet for Shock Absorption:** The manual recommends printing the case feet out of flexible TPU to help absorb vibrations from the spinning hard drives. I actually skipped this and used PETG because my unit sits on the carpet. (I know, I know, airflow—but the case panels and Noctua fans keep the dust away surprisingly well!). However, if you are putting this on a hard wooden desk, definitely use TPU for the feet to kill the vibration noise.
 
 Take your time with this phase. Printing the chassis is by far the most time-consuming part of the entire project, but doing it right the first time saves a massive amount of headache later.
 
+---
+
 ## 4. PC Assembly & Configuration
-![Internal Layout](images/IMG_2939.png)
-*Motherboard mounting and Noctua cooler clearance.*
+As outlined in the Modcase manual, the physical build is divided into three distinct sections: the **Top Cover**, the **Main Body** (where the PC components live), and the **Base** (the HDD storage array). Overall, everything fits together perfectly like a puzzle piece, and it is a genuinely fun project to build. Just don't rush it.
+
+![Internal Layout](images/Overview3dnas.png)
+*Motherboard mounting and internal cable management.*
+
+*   **The Top Cover & The "Fan Mistake":** Let's get this out of the way first. You **MUST** install the exhaust fan into the top module *before* screwing the top cover onto the case. The guy in the Hardware Haven video made this mistake, and so did I. If you forget, you have to completely disassemble the top half of the case to get the fan in. Also, the top cover attaches using the self-tapping M3 screws, not the M5 nuts/bolts kit. An extended screwdriver bit helps here, but I managed fine without one.
+*   **Main Body Assembly:** The motherboard and SFX power supply drop in and screw down quite nicely. The PSU cables will be a very tight fit, so utilize your zip ties and cable manage as much as you can right from the start.
+*   **The NVMe-to-SATA Adapter:** Be extremely careful with this component. The adapter board is quite flimsy. When plugging in or unplugging SATA cables, support the board with your fingers so you don't accidentally snap or bend the connector.
+*   **Storage Bays & Cabling:** Routing the SATA and power cables down into the HDD base is visually a bit of a mess, but they reach without any clearance issues. Note that if you are using 2.5" HDDs, they require an additional printed attachment to secure them into the 3.5" bays.
+*   **A Note on SATA Cables:** I used the SATA cables that came included with the NVMe adapter, but they tend to slip off easily. I highly recommend buying higher-quality locking SATA cables for a more secure connection.
+
+![Rear I/O and Drive Bays](images/IMG_2939.png)
+*Rear view showcasing the exposed drive bays, I/O shield, and power supply 
 
 *   **Internal Assembly:** *Talk about fitting the motherboard, routing the power cables, and any tight clearances.*
 *   **Drive Installation:** *Explain how the drives slide into the rear of the enclosure.*
