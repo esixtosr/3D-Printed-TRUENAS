@@ -40,7 +40,19 @@ Below is the complete breakdown of all parts utilized for the enclosure fabricat
 ---
 
 ## 3. The Enclosure Fabrication
-*Insert any notes here about how long the print took, what slicer settings you used, or any warping issues you had to overcome.*
+If you take nothing else away from this build, let it be this: **PETG = SLOW PRINTS. Patience is key.**
+
+I chose PETG over PLA (as suggested in the inspiration video) because it offers much better heat resistance, which is absolutely mandatory when you are cramming spinning hard drives and a CPU into a tiny plastic box. However, if you have never printed PETG before, definitely look up some tutorials first.
+
+Here are my specific notes and slicer settings using **Orca Slicer**:
+* **Print Speeds:** I had to drop my speeds drastically to get clean layers. Keep your overall speed between **40–55 mm/s max**. For the few tiny supports you actually need, drop the speed all the way down to **15–20 mm/s**.
+* **Temperatures:** Always read the manual for your specific filament brand, but I found the sweet spot to be around **235–255°C for the nozzle** and **75–85°C for the build plate**.
+* **Dry Your Filament:** PETG absorbs moisture from the air like a sponge. If your filament is wet, it will string everywhere and your layers will be weak. Use a filament dryer or print straight out of a dry box if you can.
+* **Structural Integrity:** Spinning hard drives create vibration, and power supplies are heavy. As noted in the included Modcase manual, make sure you use at least 4 wall loops for strength. Also, **print the rear panel at 100% infill**—it bears the weight of the PSU and needs to be rock solid.
+* **Bed Adhesion:** PETG sticks *really* well. Sometimes too well. If you are using a smooth PEI or glass bed, use a dedicated 3D print glue (not just any standard craft glue stick). It acts as a release agent so the PETG doesn't rip chunks out of your build plate. 
+* **Let It Cool!** I learned this one the hard way. Once a print finishes, leave it on the plate for at least **30 minutes** to cool down. If you try to pull it off while it is still warm, the parts will warp and bend, and you will be stuck reprinting them. 
+
+Take your time with this phase. Printing the chassis is by far the most time-consuming part of the entire project, but doing it right the first time saves a massive amount of headache later.
 
 ## 4. PC Assembly & Configuration
 ![Internal Layout](images/IMG_2939.png)
