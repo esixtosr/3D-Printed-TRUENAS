@@ -15,16 +15,16 @@ This repository documents how I put together a custom 3D-printed Small Form Fact
 ---
 
 ## 2. Bill of Materials (Hardware & Purchases)
-Below is the complete breakdown of all parts utilized for the enclosure fabrication and the internal PC build.
+Below is the complete breakdown of all parts utilized for the enclosure fabrication and the internal PC build. 
 
 | Category | Item | Purpose / Notes |
 | :--- | :--- | :--- |
-| **3D Printing** | [Insert 3D Printer Name] | Used to fabricate the main chassis, drive cages, and fan modules. |
-| **3D Printing** | [Insert Brand] Beige/Brown PETG | PETG was selected over PLA for superior heat resistance and durability. |
-| **3D Printing** | [Link to 3D Plans] | The digital STL files used for slicing and printing. |
-| **Case Hardware** | M3 Nuts & Bolts | Used for mounting the motherboard securely without stripping plastic. |
-| **Case Hardware** | M3x20 Screws | Used for assembling the primary case halves and drive bays. |
-| **Case Hardware** | Standard HDD Screws | Used to secure the 3.5" hard drives into the printed caddies. |
+| **3D Printing** | [Flashforge Adventurer 5M](https://a.co/d/00YIra72) | Used to fabricate the main chassis, drive cages, and fan modules. |
+| **3D Printing** | [Dark Blue PETG](https://a.co/d/0dnJKtc3) | Main body of the NAS case. (Highly recommend buying 2 spools if you are new to 3D printing to account for misprints!) |
+| **3D Printing** | [Black PETG](https://a.co/d/07EWdmw9) | Used specifically for the HDD storage bays for a clean two-tone color aesthetic. |
+| **Case Hardware** | [M5 Screws & Bolts Assortment](https://a.co/d/0ja87DbK) | Used for mounting the motherboard securely to the 3D-printed standoffs. |
+| **Case Hardware** | [Self-Tapping Case Screws](https://a.co/d/06ilbYNv) | Used to assemble and secure the various 3D-printed case panels together. |
+| **Case Hardware** | [Zip Ties](https://a.co/d/00csjYNW) | Absolutely essential for cable management in such a tight ITX enclosure. |
 | **PC Components** | [Insert Motherboard/CPU] | The core compute unit for running TrueNAS and managing storage arrays. |
 | **PC Components** | [Insert RAM] | Memory required for ZFS caching. |
 | **PC Components** | [Insert Power Supply] | [Insert SFX/Flex ATX] form factor to fit the custom chassis footprint. |
