@@ -63,7 +63,7 @@ As outlined in the Modcase manual, the physical build is divided into three dist
 ![Motherboard Assembly](images/image_9.png)
 *Work-in-progress: Mounting the Minisforum board, QNAP expansion card, and routing the SATA cables down to the drive bays.*
 
-*   **The Top Cover & The "Fan Mistake":** Let's get this out of the way first. You **MUST** install the exhaust fan into the top module *before* screwing the top cover onto the case. The guy in the Hardware Haven video made this mistake, and so did I. If you forget, you have to completely disassemble the top half of the case to get the fan in. Also, the top cover attaches using the self-tapping M3 screws, not the M5 nuts/bolts kit. An extended screwdriver bit helps here, but I managed fine without one.
+*   **The Top Cover & The "Fan Mistake":** Let's get this out of the way first. You **MUST** install the exhaust fan into the top module *before* screwing the top cover onto the case. The guy in the Hardware Haven video made this mistake, and so did I. If you forget, you have to completely disassemble the top half of the case to get the fan in. Also, the top cover attaches using the self-tapping M3 screws, not the M3 nuts/bolts kit. An extended screwdriver bit helps here, but I managed fine without one.
 *   **Main Body Assembly:** The motherboard and SFX power supply drop in and screw down quite nicely. 
 
 ![PSU Clearance](images/image_6.png)
